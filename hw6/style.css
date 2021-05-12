@@ -367,6 +367,7 @@ input:checked+.slider::after {
 .grid-item__header {
     display: flex;
     justify-content: space-between;
+    /* margin-bottom: 25px; */
 }
 
 .grid-item__menu-wrap {
@@ -505,4 +506,14 @@ input:checked+.slider::after {
     transition: .3s;
     cursor: pointer;
     font-family: 'Gilroy', serif;
+}
+
+.stat-img{
+    max-width: 100%;
+    width: auto;
+    max-height: calc(100%);
+    height: auto;
+}
+.stat-content{
+    height: auto;
 }
