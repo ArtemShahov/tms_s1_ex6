@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="style.css">
+    <title>Home Work 6</title>
+</head>
+
+<body>
+
+    <div class="page">
+        <div class="widget">
+            <aside class="menu">
+                <div class="menu-logo"><img src="./assets/vk_logo.png" alt="logo" class="menu-img"></div>
+
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><img src="./assets/Vector.svg" alt="" class="nav-icon"></li>
+                        <li class="nav-item"><img src="./assets/Vector(1).svg" alt="" class="nav-icon"></li>
+                        <li class="nav-item"><img src="./assets/Vector(2).svg" alt="" class="nav-icon"></li>
+                        <li class="nav-item"><img src="./assets/Vector(3).svg" alt="" class="nav-icon"></li>
+                        <li class="nav-item"><img src="./assets/Vector(4).svg" alt="" class="nav-icon"></li>
+                        <li class="nav-item nav-item-active"><img src="./assets/Vector(5).svg" alt="" class="nav-icon">
+                        </li>
+                        <li class="nav-item"><img src="./assets/XMLID 525.svg" alt="" class="nav-icon"></li>
+                    </ul>
+                </nav>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider "></span>
+                </label>
+            </aside>
+            <div class="widget-col">
+                <div class="header">
+                    <div class="header-control">
+                        <h2 class="heading">Statistics</h2>
+                        <div class="search-wrapper">
+                            <label for="search" class="search-label">
+                                <img src="./assets/search.png" alt="search" class="search-img">
+                                <input type="text" name="search" class="search-input" placeholder="Search">
+                            </label>
+                        </div>
+                        <div class="notification">
+                            <img src="./assets/notification.png" alt="notification" class="notification-img">
+                        </div>
+                    </div>
+                    <div class="header-user">
+                        <div class="user-name">Anya</div>
+                        <div class="user-photo-wrapper">
+                            <img src="./assets/photo.png" alt="user-photo" class="user-photo">
+                        </div>
+                        <div class="menu-toggle">
+                            <img src="./assets/menu-toggle.png" alt="menu-toggle" class="menu-toggle-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="widget-content">
+                    <div class="grid-item" id="friends">
+                        <div class="grid-item__header">
+                            <div class="grid-item__title">
+                                Friends
+                            </div>
+                            <div class="grid-item__menu-wrap">
+                                <div class="grid-item__menu">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item__info">
+                            <div class="grid-item__info-content">271 people</div>
+                            <div class="grid-item__info-diff">+ 0,7%
+                                <img class="grid-item__info-arrow-img" src="./assets/arrow-up.png" alt="arrow up">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item" id="visitors">
+                        <div class="grid-item__header">
+                            <div class="grid-item__title">
+                                Unique visitors
+                            </div>
+                            <div class="grid-item__menu-wrap">
+                                <div class="grid-item__menu">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item__info">
+                            <div class="grid-item__info-content">69 people</div>
+                            <div class="grid-item__info-diff">- 1,7%
+                                <img class="grid-item__info-arrow-img" src="./assets/arrow-down.png" alt="arrow down">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item" id="followers">
+                        <div class="grid-item__header">
+                            <div class="grid-item__title">
+                                Followers
+                            </div>
+                            <div class="grid-item__menu-wrap">
+                                <div class="grid-item__menu">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item__info">
+                            <div class="grid-item__info-content">288 people</div>
+                            <div class="grid-item__info-diff">+ 1%
+                                <img class="grid-item__info-arrow-img" src="./assets/arrow-up.png" alt="arrow up">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item" id="audience">
+                        <div class="grid-item__header">
+                            <div class="grid-item__title">Audience reach</div>
+                            <div class="grid-item__control">
+                                <div class="date-range">31/01/2020 – 06/02/2020</div>
+                                <div class="grid-item__menu-toggle">
+                                    <img src="./assets/menu-toggle.png" alt="menu-toggle"
+                                        class="grid-item__menu-toggle-img">
+                                </div>
+                                <div class="grid-item__options-wrap">
+                                    <input type="checkbox" id="audience-total" class="custom-checkbox" checked>
+                                    <label for="audience-total" class="custom-checkbox-label">
+                                        Total
+                                    </label>
+                                    <input type="checkbox" id="audience-follower" class="custom-checkbox">
+                                    <label for="audience-follower" class="custom-checkbox-label">
+                                        Follower
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item" id="device">
+                        <div class="grid-item__header">
+                            Reach by device
+                        </div>
+                    </div>
+                    <div class="grid-item" id="gander">
+                        <div class="grid-item__header">
+                            <div class="grid-item__title">
+                                Gender / Age
+                            </div>
+                            <div class="grid-item__control">
+                                <div class="grid-item__options-wrap">
+                                    <input type="checkbox" id="gender-total" class="custom-checkbox" checked>
+                                    <label for="gender-total" class="custom-checkbox-label">
+                                        Total
+                                    </label>
+                                    <input type="checkbox" id="gender-follower" class="custom-checkbox" checked>
+                                    <label for="gender-follower" class="custom-checkbox-label">
+                                        Follower
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item" id="geo">
+                        <div class="grid-item__header">
+                            <div class="grid-item__title">
+                                Geo
+                            </div>
+                            <div class="grid-item__options-wrap custom-radio-wrap">
+                                <input type="radio" name="geo-radio" id="geo-country" class="custom-radio" checked>
+                                <label class="custom-radio-label" for="geo-country">Country</label>
+                                <input type="radio" name="geo-radio" id="geo-city" class="custom-radio">
+                                <label class="custom-radio-label" for="geo-city">City</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
